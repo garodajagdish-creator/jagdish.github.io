@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sniglet:wght@400;800&display=swap');
+*{padding: 0; margin: 0;}
+header, section{overflow-x: hidden;}
+
+:root {
+    --acme: "Acme", sans-serif;
+    --lobs: "Lobster", sans-serif;
+    --sniglet: "Sniglet", system-ui;
+    --patua: "Patua One", serif;
+    --rubik: "Rubik", sans-serif;
+    --bg_gradiant: #F8483C;
+    --gradiant: linear-gradient(0deg,rgb(238, 63, 19) 0%, rgba(223, 39, 114, 1) 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    background: var(--bg_gradiant);
+    background: var(--gradiant);
+}
+header a{
+    color: #fff !important;
+}
+.header a:hover{
+    transition: all 0.3s ease 0s;
+}
+header a.dropdown-item{
+    color: #000 !important;
+}
+
+.menu {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 2; 
+    left: 0; 
+    right: 0; 
+    background-color: rgba(34, 34, 34, 0.9);
+}
+
+/* {color: #ad2a2a; padding: 300px 50px;} */
+/* .jm{width: 100%;}
+.center {
+    height: 600px;
+} */
+/* .content {
+    align-items: center ; margin-top: 20vmin;
+}  */
+
+.js_1{
+    margin-top: 20vmin;
+}
+.js_1 h2{
+    font-family: var(--patua);
+}
+.js_1 p
+{font-family: var(--patua);
+}
+.js_2 {
+    margin: 10vmin 0vmin 2vmin 0vmin;
+    background-color: #fff;
+    box-shadow: 8px 6px 6px 8px rgba(0,0,0,0.1);
+    border: 1px solid #8a8a8a;
+    padding: 2vmin 2vmin 2vmin 2vmin;
+}
+.js_2 h4{
+    font-size: 18px;
+}
+.left_panel{
+    height: 600px;
+}
+.left_panel h2{
+    margin-top: 250px;
+}
+
+/* second section */
+
+.Ceo{
+    padding: 15px 0px;
+}
+.section-gap{
+    padding: 100px 0px;
+}
+
+/* third section */
+
+.mb-30{
+margin-bottom: 30px;
+}
+
+/* fourth section */
+
+.js_4{
+    margin: auto;
+}
+.js_5{
+    margin: auto;
+}
+.js_5 button{
+    background-color: rgb(230, 64, 42);
+}
+.js_5 i{
+    color: #fff;
+}
+.js_6{
+    margin: auto;
+}
+.js_6 i{
+    color:rgb(230, 64, 42);
+}
+.sec{
+    padding: 5vmin 40vmin 5vmin 40vmin; 
+    background-color: #222;  
+    height: 50%; 
+    margin-top: 15vmin; 
+    color: #fff;
+}
+.form-control{
+    background-color: #191919 !important;
+}
+.click-btn{
+    padding: 8px 12px; 
+    background-image:-webkit-linear-gradient(#f45622);
+}
+.fa-solid{
+    padding-right: 10px;
+}
+.fa-brands{
+    padding-right: 10px;
+}
+.jg p{
+    margin: 5vmin 45vmin; 
+    font-family: var(--sniglet);
+}
+
+
+
+/* Mobile view */
+
+@media only screen and (max-width: 767px) {.sec{padding: 5vmin 5vmin;} .jg p{margin: 5vmin;}}
